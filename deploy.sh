@@ -17,9 +17,9 @@ git add -A
 git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io
-git push -f https://wyz.github.io master
+# git push -f https://wyz.github.io master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-# git push -f https://wyz.github.io.git master:gh-pages
+git push -f https://github.com/44510709/wyz.git master:gh-pages
 
 cd -
